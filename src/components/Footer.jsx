@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2025 Satesh Kumar. All rights reserved.</p>
+      <p>&copy; 2025 Sateesh Kumar. All rights reserved.</p>
       <div className="footer-links">
         <a href="https://github.com/sateshkumar" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://linkedin.com/in/satesh-kumar" target="_blank" rel="noopener noreferrer">LinkedIn</a>

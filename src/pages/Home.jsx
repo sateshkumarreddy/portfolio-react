@@ -5,9 +5,9 @@ import profilePic from '../assets/image.jpg'; // adjust path if needed
 function Home() {
   return (
     <div className="home">
-      <img src={profilePic} alt="Satesh Kumar" className="profile-photo" />
+      <img src={profilePic} alt="Sateesh Kumar" className="profile-photo" />
       <h1>Welcome to My Portfolio</h1>
-      <p>Hello, I’m Satesh Kumar, a passionate learner diving deep into React and full-stack development.</p>
+      <p>Hello, I’m Sateesh Kumar, a passionate learner diving deep into React and full-stack development.</p>
     </div>
   );
 }

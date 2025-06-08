@@ -6,7 +6,7 @@ function Summary() {
     <div className="summary page-container">
       <h2>Summary</h2>
       <p>
-        I am <strong>Satesh Kumar</strong>, a passionate and dedicated learner in the field of full-stack development. With a background in Electronics and Communication Engineering, I have transitioned into web development, focusing on building projects using React and SQL.
+        I am <strong>Sateesh Kumar</strong>, a passionate and dedicated learner in the field of full-stack development. With a background in Electronics and Communication Engineering, I have transitioned into web development, focusing on building projects using React and SQL.
       </p>
       <p>I’m an enthusiastic and self-driven developer with a background in Electronics and Communication Engineering. I have experience working with classic ASP and Windows Forms, and I’m currently expanding my skills in ASP.NET MVC and modern frontend development with React JS.
 
