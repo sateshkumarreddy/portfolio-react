@@ -1,0 +1,84 @@
+/* Projects.css */
+
+.projects {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b; /* dark blue-gray */
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #0ea5e9; /* bright sky blue */
+  letter-spacing: 2px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: #e0f2fe; /* very light sky blue */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(14, 165, 233, 0.3);
+  padding: 1.8rem 2rem;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(14, 165, 233, 0.6);
+  cursor: pointer;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #0284c7; /* darker sky blue */
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.project-card p {
+  margin: 0.5rem 0;
+  color: #334155; /* slate gray */
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.project-card p em {
+  color: #0284c7;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.project-card strong {
+  color: #0369a1; /* medium sky blue */
+}
+
+@media (max-width: 700px) {
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+/* Home.css */
+
+.home {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0f172a; /* dark navy */
+  background: #e0f2fe; /* light sky blue background */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.home:hover {
+  box-shadow: 0 12px 30px rgba(14, 165, 233, 0.6);
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #0284c7; /* bright sky blue */
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.home p {
+  font-size: 1.25rem;
+  color: #334155; /* slate gray */
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it round */
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 4px solid #0284c7; /* sky blue border */
+  box-shadow: 0 4px 10px rgba(2, 132, 199, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}

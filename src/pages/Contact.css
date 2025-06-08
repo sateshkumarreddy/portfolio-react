@@ -1,0 +1,51 @@
+.contact {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #f0f9ff; /* light sky blue background */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0c4a6e;
+  margin-bottom: 1.5rem;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  background-color: #e0f2fe;
+  margin-bottom: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.contact li:hover {
+  background-color: #bae6fd;
+}
+
+.contact a {
+  color: #0284c7;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 0.3rem;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #0369a1;
+}

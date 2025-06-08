@@ -1,0 +1,26 @@
+.footer {
+  background-color: #007b7f; /* dark blue-gray */
+  color: #e2e8f0;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #6b9ee5;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: #38bdf8;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #0ea5e9;
+  border-bottom: 1px solid #0ea5e9;
+}
